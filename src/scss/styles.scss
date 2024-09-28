@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'mixins.scss';
+@import 'extend.scss';
+@import "variables.scss";
+*{
+    font-family: "MuseoModerno", sans-serif;
+}
+.header{
+    @include background('../img/header-bg.png');
+    color: $font-color-white;
+    padding: 21px 0 93px;
+    p{
+        margin: 0;
+    }
+    &__top{
+        &-middle{
+            p:first-of-type{
+                @include font($weight: 500);
+            }
+            p:last-of-type{
+                @include font(18px, 500);
+                text-shadow: 
+                -1px -1px 0 black,  
+                 1px -1px 0 black,
+                -1px  1px 0 black,
+                 1px  1px 0 black,
+                 2px 6px 7px rgba(0,0,0,0.6);
+            }
+        }
+        &-number{
+            @include font(18px, 700);
+        }
+        &-button{
+            @extend %btn;
+            padding: 8px 18px;
+            @include font($weight: 500);
+        }
+    }
+    &__main{
+        &-list{
+            max-width: 424px;
+            width: 100%;
+            figure{
+                flex:auto;
+            }
+        }
+        &-button{
+            @extend %btn;
+            padding: 13px 42px;
+            &-credits{
+                span{
+                    text: {
+                        transform: uppercase;
+                        decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

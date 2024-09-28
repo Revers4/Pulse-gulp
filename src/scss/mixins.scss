@@ -1,0 +1,10 @@
+@mixin background($url, $repeat: no-repeat, $position: center, $size: cover) {
+    background-image: url($url);
+    background-repeat: $repeat;
+    background-position: $position;
+    background-size: $size;
+}
+@mixin font($size: 12px, $weight: 300) {
+    font-size: $size;
+    font-weight: $weight;
+}
