@@ -16,14 +16,14 @@
         <section class="header__top">
             <article class="container">
                 <div class="row">
-                    <figure class="col-md-3 offset-1">
+                    <figure class="col-md-3 offset-md-1">
                         <img src="icons/running-man-2-64.png" alt="">
                     </figure>
                     <div class="header__top-middle col-md-4">
                         <p class="text-center">Официальный представитель</p>
                         <p class="text-center">Garmin, Polar, Suunto</p>
                     </div>
-                    <div class="col-md-2 offset-1 d-flex align-items-end flex-column">
+                    <div class="col-md-2 offset-md-1 d-flex align-items-end flex-column">
                         <p class="header__top-number text-end">+7 (499) 922-89-74</p>
                         <button class="header__top-button">заказать звонок</button>
                     </div>
@@ -33,21 +33,21 @@
         <section class="header__main">
             <article class="container">
                 <div class="row">
-                    <div class="col-md-6 offset-5 d-flex flex-column align-items-end">
-                        <h1 class="header__main-h1 text-end">Подбор пульсометра</h1>
-                        <h2 class="header__main-h2 text-end">с учётом Вашего уровня подготовки</h2>
+                    <div class="col-md-6 offset-md-5 d-flex flex-column align-items-end">
+                        <h1 class="header__main-h1 text-end text-uppercase">Подбор пульсометра</h1>
+                        <h2 class="header__main-h2 text-end text-uppercase">с учётом Вашего уровня подготовки</h2>
                         <div class="header__main-list d-flex">
-                            <figure class="d-flex flex-column align-items-center">
+                            <figure class="d-flex flex-column align-items-center justify-content-between">
                                 <img src="icons/timer_time.png" alt="">
                                 <figcaption>Время подбора:</figcaption>
                                 <figcaption>10 минут</figcaption>
                             </figure>
-                            <figure class="d-flex flex-column align-items-center">
+                            <figure class="d-flex flex-column align-items-center justify-content-between">
                                 <img src="icons/handcart.png" alt="">
                                 <figcaption>Бесплатная</figcaption>
                                 <figcaption>доставка</figcaption>
                             </figure>
-                            <figure class="d-flex flex-column align-items-center">
+                            <figure class="d-flex flex-column align-items-center justify-content-between">
                                 <img src="icons/messages.png" alt="">
                                 <figcaption>Ответим</figcaption>
                                 <figcaption>на все вопросы</figcaption>
@@ -60,6 +60,61 @@
             </article>
         </section>
     </header>
+    <main class="main">
+        <section class="main__advantages">
+            <article class="container">
+                <h1 class="main__advantages-heading text-center">НАШИ ПРЕИМУЩЕСТВА</h1>
+                <div class="row">
+                    <div class="main__advantages-item col-md-3 offset-md-1 d-flex flex-column align-items-center">
+                        <figure>
+                            <img src="icons/cup.png" alt="">
+                        </figure>
+                        <h3>Делимся опытом</h3>
+                        <p class="text-center">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</p>
+                    </div>
+                    <div class="main__advantages-item col-md-4 d-flex flex-column align-items-center">
+                        <figure>
+                            <img src="icons/heart.png" alt="">
+                        </figure>
+                        <h3>Заботимся о здоровье</h3>
+                        <p class="text-center">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</p>
+                    </div>
+                    <div class="main__advantages-item col-md-3 d-flex flex-column align-items-center">
+                        <figure>
+                            <img src="icons/shoe.png" alt="">
+                        </figure>
+                        <h3>Учим бегать</h3>
+                        <p class="text-center">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="main__consultation">
+            <article class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                            <h1 class="main__consultation-heading text-uppercase">Получите бесплатную консультацию по подбору пульсометра </h1>
+                            <p class="main__consultation-text">Просто заполните форму заявки</p>
+                            <p class="main__consultation-text">и мы перезвоним вам в течении 10 минут</p>
+                        </div>
+                        <form class="main__consultation-form">
+                            <div class="mb-3">
+                                <input placeholder="Ваше имя" type="text" class="form-control">
+                              </div>
+                            <div class="mb-3">
+                              <input placeholder="Ваш телефон" type="text" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <input placeholder="Ваш E-mail" type="email" class="form-control" id="consultationEmail" aria-describedby="emailHelp">
+                            </div>
+                            <button type="submit" class="main__consultation-button text-uppercase">Заказать консультацию</button>
+                          </form>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

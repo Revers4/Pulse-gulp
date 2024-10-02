@@ -1,8 +1,14 @@
+@import "variables.scss";
 %btn {
-    background-color: #C70101;
+    background-color: $red;
     color: #FFFFFF;
     text-transform: uppercase;
     border: none;
     border-radius: 6px;
     width: fit-content;
+}
+%heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0D0D0D;
 }
